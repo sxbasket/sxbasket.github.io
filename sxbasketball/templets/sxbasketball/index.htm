@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_cmsurl/}/templets/css/main.css" type="text/css" rel="stylesheet" />
+<script src="{dede:global.cfg_cmsurl/}/templets/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="{dede:global.cfg_cmsurl/}/templets/js/jquery.jclock.js" type="text/javascript"></script>
+<script type="text/javascript">
+function ZXNewsHref()
+{
+var NewsID =$("#lbZXNewsID").text();
+var NewsTitle=$("#lbNewsTitle").text(); 
+$("#TopFirstNewHref").attr("href","html/News_"+NewsID+".html");
+}
+$(function(){
+var NewsTitle=$("#lbNewsTitle").text();
+$("#TopFirstNewHref").attr("title",NewsTitle);
+})
+/*热点新闻*/
+   function AutoScroll(obj){$(obj).find("ul:first").animate({  
+   marginTop:"-25px"  
+   },500,function(){
+   $(this).css({marginTop:"0px"}).find("li:first").appendTo(this); 
+    });  
+    } 
+     $(document).ready(function(){  
+     setInterval('AutoScroll(".hotit")',3000) 
+    });
+/*时间*/            
+$(function(){
+$(function(){$('#nowTime').jclock({withDate:true, withWeek:true})});
+});    
+</script>
+
+</head>
+
+<body>
+{dede:include filename="head.htm"/}
+
+
+<div class="area">
+  <div class="main">
+    <div class="foucs">
+      <div id="idContainer2" class="slider">
+        <div class="conbox">
+          <div id="sceeaFocus"> 
+       <script language='javascript'>
+                  linkarr = new Array();
+                  picarr = new Array();
+                  textarr = new Array();
+                  var swf_width=370;
+                  var swf_height=240;
+                  //文字颜色|文字位置|文字背景颜色|文字背景透明度|按键文字颜色|按键默认颜色|按键当前颜色|自动播放时间|图片过渡效果|是否显示按钮|打开方式
+                  var configtg='0xffffff||0x3FA61F|5|0xffffff|0x348DD7|0x000033|8|3|1|_blank';   
+                  var files = "";
+                  var links = "";
+                  var texts = "";
+                  //这里设置调用标记
+                  linkarr[1] = "/html/zsxx/2014/1113/256.html";
+                  picarr[1]  = "/uploads/allimg/141113/4_1225101581.jpg";
+linkarr[2] = "/html/zsxx/2014/1017/252.html";
+                  picarr[2]  = "/uploads/allimg/141023/4_1106255411-lp.jpg";
+linkarr[3] = "/html/zysz/2014/0823/227.html";
+                  picarr[3]  = "/uploads/allimg/140822/1_2202305861.jpg";
+
+                  for(i=1;i<picarr.length;i++){
+                  if(files=="") files = picarr[i];
+                  else files += "|"+picarr[i];
+                  }
+                  for(i=1;i<linkarr.length;i++){
+                  if(links=="") links = linkarr[i];
+                  else links += "|"+linkarr[i];
+                  }
+                  
+                  document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+                  document.write('<param name="movie" value="/static/swf/bcastr3.swf"><param name="quality" value="high">');
+                  document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+                  document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'">');
+                  document.write('<embed src="/static/swf/bcastr3.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'&menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>');
+              </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box nes-hot" id=navmenu>
+      <div class="tit">
+        <h2 class="name"> <span>最新动态</span></h2>
+      </div>
+      <div class="lbox">
+        <div class="aone">
+          <h2> <a href='/html/zsxx/2014/1113/256.html' title='用军训凝聚力量 用军令状鼓舞士气               省篮管中心召开冬训动员会'> <span id="lbZXNewsTitle">用军训凝聚力量 用军令状鼓舞士气               </span></a></h2>
+          <p> <span id="lbZXNews">本报讯 11月11日，省篮管中心召开冬训动员大会， 中心主任杨刚总结了一年来的主要工作，对今年的冬训工作进行了部署和</span></p>
+        </div>
+
+        <ul class="list">
+          <li><span class="time">2014/11/07</span><a  href='/html/zsxx/2014/1107/255.html' title='陕西省体育局工作人员带薪年休假管理办法'>陕西省体育局工作人员带薪年休假管理办法</a></li>
+<li><span class="time">2014/10/31</span><a  href='/html/gsgg/2014/1031/254.html' title='2014年全国女篮巡回对抗赛（湖北十堰站）成绩公告'>2014年全国女篮巡回对抗赛（湖北十堰站）成</a></li>
+<li><span class="time">2014/10/23</span><a  href='/html/zsxx/2014/1017/252.html' title='2014年“全国篮球教练员岗位培训第十七期继续培训班”成功举办'>2014年“全国篮球教练员岗位培训第十七期继</a></li>
+<li><span class="time">2014/10/21</span><a  href='/html/gsgg/2014/1017/253.html' title='全国篮球U15集训赛陕西姑娘小伙分获比赛成绩第一二名'>全国篮球U15集训赛陕西姑娘小伙分获比赛成</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="clear10"> </div>
+    <div class="box m-b l">
+      <div class="tit">
+        <h2 class="name"> <span>综合信息</span></h2><a href="/html/zsxx/" class="more">更多</a>
+      </div>
+      <div class="lbox">
+        <ul>
+          <li><span class="time"> 2014/11/13 </span><a  href='/html/zsxx/2014/1113/256.html' title='用军训凝聚力量 用军令状鼓舞士气               省篮管中心召开冬训动员会'>用军训凝聚力量 用军令状鼓舞士气         </a></li>
+<li><span class="time"> 2014/11/07 </span><a  href='/html/zsxx/2014/1107/255.html' title='陕西省体育局工作人员带薪年休假管理办法'>陕西省体育局工作人员带薪年休假管理办法</a></li>
+<li><span class="time"> 2014/10/23 </span><a  href='/html/zsxx/2014/1017/252.html' title='2014年“全国篮球教练员岗位培训第十七期继续培训班”成功举办'>2014年“全国篮球教练员岗位培训第十七期继</a></li>
+<li><span class="time"> 2014/10/08 </span><a  href='/html/zsxx/2014/1008/247.html' title='中心国庆节前卫生检查情况通报'>中心国庆节前卫生检查情况通报</a></li>
+<li><span class="time"> 2014/04/23 </span><a  href='/html/zsxx/2014/0421/155.html' title='关于陕西省第23届运动会篮球裁判员培训班补测的通知'>关于陕西省第23届运动会篮球裁判员培训班补</a></li>
+<li><span class="time"> 2014/04/27 </span><a  href='/html/zsxx/2014/0410/123.html' title='关于印发《陕西省第23届运动会篮球比赛竞赛规程》的通知'>关于印发《陕西省第23届运动会篮球比赛竞赛</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="box m-b r">
+      <div class="tit">
+        <h2 class="name"> <span>青少年工作</span></h2><a href="/html/zcfg/" class="more">更多</a>
+      </div>
+      <div class="lbox">
+        <ul>
+          <li><span class="time"> 2014/09/25 </span><a  href='/html/zcfg/2014/0925/245.html' title='陕西省第二十三届省运会篮球项目 比赛成绩汇总'>陕西省第二十三届省运会篮球项目 比赛成绩</a></li>
+<li><span class="time"> 2014/09/03 </span><a  href='/html/zcfg/2014/0903/243.html' title='关于选调陕西省第23届运动会男子篮球甲组决赛裁判员的通知'>关于选调陕西省第23届运动会男子篮球甲组决</a></li>
+<li><span class="time"> 2014/09/03 </span><a  href='/html/zcfg/2014/0903/242.html' title='关于选调陕西省第23届运动会女子篮球甲组决赛裁判员的通知'>关于选调陕西省第23届运动会女子篮球甲组决</a></li>
+<li><span class="time"> 2014/09/02 </span><a  href='/html/zcfg/2014/0902/241.html' title='关于下发陕西省第23届运动会篮球决赛竞赛日程的通知'>关于下发陕西省第23届运动会篮球决赛竞赛日</a></li>
+<li><span class="time"> 2014/09/01 </span><a  href='/html/zcfg/2014/0901/240.html' title='关于选调陕西省第23届运动会男子篮球乙组决赛裁判员的通知'>关于选调陕西省第23届运动会男子篮球乙组决</a></li>
+<li><span class="time"> 2014/09/01 </span><a  href='/html/zcfg/2014/0901/239.html' title='关于选调陕西省第23届运动会女子篮球乙组决赛裁判员的通知'>关于选调陕西省第23届运动会女子篮球乙组决</a></li>
+
+        </ul>
+      </div>
+    </div>
+  <div class="clear10"> </div>
+  <div class="box m-b l">
+      <div class="tit">
+        <h2 class="name"> <span>社会篮球</span></h2><a href="/html/shlq/" class="more">更多</a>
+      </div>
+      <div class="lbox">
+        <ul>
+          <li><span class="time"> 2014/08/23 </span><a  href='/html/shlq/2014/0823/226.html' title='关于选调“2014年中国业余篮球公开赛”陕西赛区决赛裁判员的通知'>关于选调“2014年中国业余篮球公开赛”陕西</a></li>
+<li><span class="time"> 2014/08/12 </span><a  href='/html/shlq/2014/0808/223.html' title='关于举办“2014年中国业余篮球公开赛”陕西赛区比赛的通知'>关于举办“2014年中国业余篮球公开赛”陕西</a></li>
+<li><span class="time"> 2014/08/06 </span><a  href='/html/shlq/2014/0805/221.html' title='关于成立“2014肯德基全国青少年三人篮球冠军挑战赛”陕西赛区组委会的通知'>关于成立“2014肯德基全国青少年三人篮球冠</a></li>
+<li><span class="time"> 2014/07/11 </span><a  href='/html/shlq/2014/0711/214.html' title='关于举办2014肯德基全国青少年三人篮球冠军赛陕西赛区比赛通知'>关于举办2014肯德基全国青少年三人篮球冠军</a></li>
+<li><span class="time"> 2014/07/02 </span><a  href='/html/shlq/2014/0607/209.html' title='2014陕西星之梦篮球选秀夏令营开始招生'>2014陕西星之梦篮球选秀夏令营开始招生</a></li>
+
+        </ul>
+      </div>
+    </div>
+  <div class="box m-b r">
+      <div class="tit">
+        <h2 class="name"> <span>裁判员天地</span></h2><a href="/html/cpytd/" class="more">更多</a>
+      </div>
+      <div class="lbox">
+        <ul>
+          <li><span class="time"> 2014/04/23 </span><a  href='/html/cpytd/jxsp/2014/0423/158.html' title='走步（二）'>走步（二）</a></li>
+<li><span class="time"> 2014/04/23 </span><a  href='/html/cpytd/jxsp/2014/0423/157.html' title='走步（一）'>走步（一）</a></li>
+<li><span class="time"> 2014/04/23 </span><a  href='/html/cpytd/jxsp/2014/0423/194.html' title='突发事件'>突发事件</a></li>
+<li><span class="time"> 2014/04/23 </span><a  href='/html/cpytd/jxsp/2014/0423/193.html' title='是否违体（二）'>是否违体（二）</a></li>
+<li><span class="time"> 2014/04/23 </span><a  href='/html/cpytd/jxsp/2014/0423/192.html' title='是否违体（一）'>是否违体（一）</a></li>
+<li><span class="time"> 2014/04/23 </span><a  href='/html/cpytd/jxsp/2014/0423/191.html' title='是否违体（一）'>是否违体（一）</a></li>
+
+        </ul>
+      </div>
+    </div>
+  <div class="clear10"> </div>
+  </div>
+  <div class="sub">
+    <div class="gaine notice">
+      <div class="tit"> <a href="/html/gsgg/">通知公告</a></div>
+      <ul class="list">
+        <li><a  href='/html/gsgg/2014/1031/254.html' title='2014年全国女篮巡回对抗赛（湖北十堰站）成绩公告'>2014年全国女篮巡回对抗赛（湖北</a></li>
+<li><a  href='/html/gsgg/2014/1017/253.html' title='全国篮球U15集训赛陕西姑娘小伙分获比赛成绩第一二名'>全国篮球U15集训赛陕西姑娘小伙</a></li>
+<li><a  href='/html/gsgg/2014/1012/250.html' title='全国女篮U15集训赛成绩播报'>全国女篮U15集训赛成绩播报</a></li>
+<li><a  href='/html/gsgg/2014/1011/249.html' title='全国男篮U15集训赛成绩播报'>全国男篮U15集训赛成绩播报</a></li>
+<li><a  href='/html/gsgg/2014/1011/248.html' title='全国女篮U15集训赛成绩播报'>全国女篮U15集训赛成绩播报</a></li>
+<li><a  href='/html/gsgg/2014/0915/244.html' title='关于组织陕西省男女篮U18队集训的通知'>关于组织陕西省男女篮U18队集训</a></li>
+<li><a  href='/html/gsgg/2014/0617/211.html' title='第23届省运会女篮甲组预赛陕西省篮球锦标赛女子甲组比赛补充通知'>第23届省运会女篮甲组预赛陕西省</a></li>
+
+      </ul>
+    </div>
+    <div class="gaine down">
+      <div class="tit"><a href="/html/xzzx/">资料下载</a></div>
+      <ul class="list">
+        <li class="end"><a href='/uploads/soft/141118/1_1108256781.zip' title='运动员技术等级标准（最新）'>运动员技术等级标准（最新）</a></li>
+<li class="end"><a href='/uploads/soft/140722/2014中心学习材料.pdf' title='2014各级党委理论学习资料'>2014各级党委理论学习资料</a></li>
+<li class="end"><a href='/uploads/soft/140417/2014年三人篮球规则.doc' title='2014年三人篮球规则'>2014年三人篮球规则</a></li>
+<li class="end"><a href='/uploads/soft/140417/2014年陕西省第23届运动会篮球比赛技术代表临场工作表.doc' title='2014年陕西省第23届运动会篮球比赛技术代表临场工作表'>2014年陕西省第23届运动会篮球比</a></li>
+<li class="end"><a href='/uploads/soft/140417/2014年陕西省第23届省运会裁判员试题.doc' title='2014年陕西省第23届省运会裁判员试题'>2014年陕西省第23届省运会裁判员</a></li>
+<li class="end"><a href='/uploads/soft/140417/2014年第23届省运会篮球裁判员培训班裁判员管理处罚条例试题.doc' title='2014年第23届省运会篮球裁判员培训班 裁判员管理处罚条例试题'>2014年第23届省运会篮球裁判员培</a></li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+{dede:include filename="foot.htm"/}
+
+
+
+
+</body>
+</html>
