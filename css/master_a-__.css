@@ -362,24 +362,3 @@
 	position: relative;
 }
 
-#u549
-{
-	background: #474747 url("../images/u549-grad.png") repeat-y left top;
-	background: -webkit-gradient(linear, left center, right center, color-stop(10%, #313131),to(#474747));
-	background: -webkit-linear-gradient(left,#313131 10%,#474747 );
-	background: -o-linear-gradient(left,#313131 10%,#474747 );
-	background: linear-gradient(to right,#313131 10%,#474747 );
-	border-style: none;
-	border-color: transparent;
-	-moz-border-radius: 10px 0px 0px 10px ;
-	-webkit-border-radius: 10px 0px 0px 10px ;
-	-khtml-border-radius: 10px 0px 0px 10px ;
-	border-radius: 10px 0px 0px 10px ;
-	position: fixed;
-}
-
-#u551,#u555,#u559,#u563,#u567
-{
-	position: fixed;
-}
-

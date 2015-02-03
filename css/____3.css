@@ -1,7 +1,7 @@
 .version._____3 /* version checker */
 {
-	color: #0000F8;
-	background-color: #111A9C;
+	color: #000018;
+	background-color: #96DA77;
 }
 
 .html
@@ -522,60 +522,11 @@
 
 #u678
 {
-	z-index: 106;
+	z-index: 95;
 	width: 248px;
 	margin-right: -10000px;
 	margin-top: 5px;
 	left: 692px;
-}
-
-#u549
-{
-	z-index: 95;
-	width: 54px;
-	height: 246px;
-	top: 551px;
-	right: -722px;
-}
-
-#u551
-{
-	z-index: 96;
-	width: 30px;
-	top: 567px;
-	right: -710px;
-}
-
-#u555
-{
-	z-index: 98;
-	width: 30px;
-	top: 612px;
-	right: -710px;
-}
-
-#u559
-{
-	z-index: 100;
-	width: 30px;
-	top: 657px;
-	right: -710px;
-}
-
-#u563
-{
-	z-index: 102;
-	width: 30px;
-	top: 702px;
-	right: -710px;
-}
-
-#u567
-{
-	z-index: 104;
-	width: 30px;
-	top: 748px;
-	right: -710px;
 }
 
 body

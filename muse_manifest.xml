@@ -1,13 +1,13 @@
-<manifest alg="2" build="328" opt="false" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1422908458517">
+<manifest alg="2" build="328" opt="false" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1422964513785">
   <folder name="css">
     <file name="site_global.css" crc="3770946537"/>
-    <file name="master_a-__.css" crc="76492373" ref="高校联盟:index:裁判员天地:最新动态:职业篮球:社会篮球"/>
-    <file name="____3.css" crc="4161870492" ref="高校联盟"/>
-    <file name="index.css" crc="4267848924" ref="index"/>
-    <file name="_____.css" crc="4161870492" ref="裁判员天地"/>
-    <file name="____.css" crc="4161870492" ref="最新动态"/>
-    <file name="____1.css" crc="4161870492" ref="职业篮球"/>
-    <file name="____2.css" crc="4161870492" ref="社会篮球"/>
+    <file name="master_a-__.css" crc="3904707655" ref="高校联盟:index:裁判员天地:最新动态:职业篮球:社会篮球"/>
+    <file name="____3.css" crc="412539511" ref="高校联盟"/>
+    <file name="index.css" crc="250001502" ref="index"/>
+    <file name="_____.css" crc="412539511" ref="裁判员天地"/>
+    <file name="____.css" crc="412539511" ref="最新动态"/>
+    <file name="____1.css" crc="412539511" ref="职业篮球"/>
+    <file name="____2.css" crc="412539511" ref="社会篮球"/>
     <file name="iefonts_index.css" crc="278969811" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -39,15 +39,9 @@
     <file name="001372d8a3090a3091cd34.jpg" crc="106510710" ref="index"/>
     <file name="001372d8a3090a3091cd34-u898-r-fr.png" crc="320401923" ref="index"/>
     <file name="qq截图20150203032716-u890-fr.jpg" crc="516295465" ref="index"/>
-    <file name="qq截图20150203032716-u890-r-fr.png" crc="4269923978" ref="index"/>
+    <file name="qq截图20150203032716-u890-r-fr.png" crc="4115568329" ref="index"/>
     <file name="slicksample3-u910-fr.jpg" crc="4243933992" ref="index"/>
     <file name="slicksample3-u910-r-fr.png" crc="129111351" ref="index"/>
-    <file name="u549-grad.png" crc="513831771" ref="index"/>
-    <file name="twitter-2.png" crc="408866873" ref="index:最新动态:职业篮球:社会篮球:高校联盟:裁判员天地"/>
-    <file name="linkedin.png" crc="69334328" ref="index:最新动态:职业篮球:社会篮球:高校联盟:裁判员天地"/>
-    <file name="facebook.png" crc="4127044951" ref="index:最新动态:职业篮球:社会篮球:高校联盟:裁判员天地"/>
-    <file name="flickr.png" crc="4163949550" ref="index:最新动态:职业篮球:社会篮球:高校联盟:裁判员天地"/>
-    <file name="email.png" crc="4185376222" ref="index:最新动态:职业篮球:社会篮球:高校联盟:裁判员天地"/>
     <file name="pasted image 1000x60.jpg" crc="4140891456" ref="index"/>
     <file name="item1.jpg" crc="3818628682" ref="index"/>
     <file name="item2.jpg" crc="3946336428" ref="index"/>
@@ -67,10 +61,10 @@
     <file name="google--u4305.png" crc="3759638700" ref="高校联盟"/>
     <file name="google--u4306.png" crc="3759638700" ref="裁判员天地"/>
   </folder>
-  <file name="index.html" crc="3848252080" mt="1422908428771" redirect="true"/>
-  <file name="最新动态.html" crc="3814568836" mt="1422908028389" redirect="true"/>
-  <file name="职业篮球.html" crc="373845401" mt="1422908028390" redirect="true"/>
-  <file name="社会篮球.html" crc="269168455" mt="1422908028390" redirect="true"/>
-  <file name="高校联盟.html" crc="91777175" mt="1422908028391" redirect="true"/>
-  <file name="裁判员天地.html" crc="86616168" mt="1422908028391" redirect="true"/>
+  <file name="index.html" crc="3942459489" mt="1422964472139" redirect="true"/>
+  <file name="最新动态.html" crc="4184757793" mt="1422964472140" redirect="true"/>
+  <file name="职业篮球.html" crc="4260250819" mt="1422964472140" redirect="true"/>
+  <file name="社会篮球.html" crc="383699896" mt="1422964472141" redirect="true"/>
+  <file name="高校联盟.html" crc="173088527" mt="1422964472141" redirect="true"/>
+  <file name="裁判员天地.html" crc="4172402551" mt="1422964472142" redirect="true"/>
 </manifest>
